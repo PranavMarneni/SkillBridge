@@ -1,0 +1,53 @@
+.input-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    margin: 2rem; /* Margin around the component */
+  }
+  
+  .input-title {
+    font-size: 2rem; /* Title size */
+    margin-bottom: 0.5rem; /* Space below title */
+  }
+  
+  .input-subtitle {
+    font-size: 1.2rem; /* Subtitle size */
+    margin-bottom: 1rem; /* Space below subtitle */
+  }
+  
+  .job-input {
+    width: 100%; /* Full width input */
+    max-width: 400px; /* Limit max width */
+    padding: 0.5rem; /* Padding inside the input */
+    margin-bottom: 1rem; /* Space below the input */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .alert-message {
+    color: red; /* Red color for alert messages */
+    margin-bottom: 1rem; /* Space below alert message */
+  }
+  
+  .button-container {
+    display: flex; /* Align buttons horizontally */
+    gap: 1rem; /* Space between buttons */
+  }
+  
+  .submit-button, .done-button {
+    padding: 0.5rem 1rem; /* Padding for buttons */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .submit-button {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color */
+  }
+  
+  .done-button {
+    background-color: #28a745; /* Secondary button color */
+    color: white; /* Text color */
+  }
+  
