@@ -7,7 +7,7 @@ As a user, I want to input multiple job postings (or links to them) so that the 
 ### **Implementation Plan**:
 
 1. **Job Postings Input**:
-   - Initially, users will submit job posting links (e.g., from LinkedIn or similar websites). These links will be processed in real-time using a web scraper (like BeautifulSoup) to extract job descriptions and relevant skill requirements.
+   - Initially, users will submit job posting links (e.g., from Indeed or similar websites). These links will be processed in real-time using a web scraper (like BeautifulSoup) to extract job descriptions and relevant skill requirements.
    - For simplicity, we will **not build a full job database**, as it's not scalable or feasible for this application. Instead, we’ll focus on scraping and processing links to extract job descriptions dynamically.
 
 2. **Skills Extraction with LLM**:
